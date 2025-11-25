@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>PFE - Partido Futuro Pela Educação</title>
+
+    <!-- Estilos personalizados -->
+    <style>
+        :root {
+            --primario: #002f6c;
+            --secundario: #3fa9f5;
+            --claro: #ffffff;
+            --cinza: #f2f2f2;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar, .footer {
+            background-color: var(--cinza) !important;
+        }
+
+        .logo-img {
+            height: 45px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .btn-primary {
+            background-color: var(--secundario);
+            border-color: var(--secundario);
+        }
+        .btn-primary:hover {
+            background-color: #2c87c4;
+        }
+
+        header.masthead {
+            background-color: var(--primario);
+            padding: 80px 0;
+            color: white;
+        }
+
+        .features-icons h3 {
+            color: var(--primario);
+            font-weight: bold;
+        }
+
+        .call-to-action {
+            background-color: var(--primario);
+            padding: 60px 0;
+        }
+
+        .section-img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .success-message, .error-message {
+            display: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .success-message {
+            color: #00e676;
+        }
+        .error-message {
+            color: #ff5252;
+        }
+
+        ul {
+            list-style: disc;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-light static-top">
+    <div class="container d-flex align-items-center">
+
+        <!-- LOGO DO PFE (adicione sua imagem aqui) -->
+        <img src="assets/img/logo.png" alt="Logo PFE" class="logo-img"> <!-- coloque sua imagem -->
+
+        <a class="navbar-brand fw-bold" style="color: var(--primario);">PFE</a>
+        <a class="btn btn-primary ms-auto" href="#signup">Receber Informações</a>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="masthead text-center">
+    <div class="container">
+        <h1 class="fw-bold">PFE — Partido Futuro Pela Educação</h1>
+        <h4>Educação que forma pessoas e constrói o amanhã.</h4>
+    </div>
+</header>
+
+<!-- CONTEÚDO DAS PROPOSTAS -->
+<section class="features-icons bg-light text-center">
+    <div class="container">
+
+        <h2 class="mb-5 fw-bold" style="color: var(--primario);">Áreas de Atuação</h2>
+
+        <div class="row">
+
+            <!-- Educação -->
+            <div class="col-lg-6 mb-5">
+
+                <!-- IMAGEM DA ÁREA DE EDUCAÇÃO -->
+                <img src="assets/img/escola.webp" class="section-img" alt="Educação">
+
+                <h3>Educação</h3>
+                <p class="lead">
+                    Para o PFE, a educação é o pilar essencial do desenvolvimento social. Nosso foco é
+                    garantir ensino público atualizado, acessível e de qualidade.
+                </p>
+                <ul class="text-start mx-auto" style="max-width: 450px;">
+                    <li>Construção e modernização das escolas públicas.</li>
+                    <li>Valorização e formação contínua dos professores.</li>
+                    <li>Expansão das escolas de tempo integral.</li>
+                    <li>Internet gratuita em todas as escolas.</li>
+                    <li>Bolsa para cursos técnicos e universidades.</li>
+                </ul>
+            </div>
+
+            <!-- Saúde -->
+            <div class="col-lg-6 mb-5">
+
+                <!-- IMAGEM DA ÁREA DE SAÚDE -->
+                <img src="assets/img/crake.webp" class="section-img" alt="Saúde Escolar">
+
+                <h3>Saúde</h3>
+                <p class="lead">
+                    Educação e saúde caminham juntas. Quanto mais conhecimento, mais qualidade de vida.
+                </p>
+                <ul class="text-start mx-auto" style="max-width: 450px;">
+                    <li>Programas de saúde escolar.</li>
+                    <li>Aulas de prevenção e saúde mental.</li>
+                </ul>
+            </div>
+
+            <!-- Economia -->
+            <div class="col-lg-6 mb-5">
+
+                <!-- IMAGEM DA ÁREA DE ECONOMIA -->
+                <img src="assets/img/maconha.webp" class="section-img" alt="Economia">
+
+                <h3>Economia</h3>
+                <p class="lead">
+                    Investir em educação é investir no crescimento econômico e na inovação.
+                </p>
+                <ul class="text-start mx-auto" style="max-width: 450px;">
+                    <li>Cursos técnicos e empreendedorismo.</li>
+                    <li>Apoio à pesquisa e tecnologia.</li>
+                    <li>Parcerias para estágios e formação prática.</li>
+                </ul>
+            </div>
+
+            <!-- Meio Ambiente -->
+            <div class="col-lg-6 mb-5">
+
+                <!-- IMAGEM DA ÁREA DE MEIO AMBIENTE -->
+                <img src="assets/img/heroina.webp" class="section-img" alt="Meio Ambiente">
+
+                <h3>Meio Ambiente</h3>
+                <p class="lead">
+                    A educação ambiental é essencial para formar cidadãos responsáveis.
+                </p>
+                <ul class="text-start mx-auto" style="max-width: 450px;">
+                    <li>Aulas sobre sustentabilidade.</li>
+                    <li>Projetos de reciclagem.</li>
+                    <li>Uso consciente dos recursos.</li>
+                </ul>
+            </div>
+
+            <!-- Direitos Humanos -->
+            <div class="col-lg-12 mt-4">
+
+                <!-- IMAGEM DA ÁREA DE DIREITOS HUMANOS -->
+                <img src="assets/img/heroina.jpg" class="section-img" alt="Direitos Humanos">
+
+                <h3>Direitos Humanos</h3>
+                <p class="lead">
+                    Respeito, inclusão e igualdade de oportunidades são pilares fundamentais.
+                </p>
+                <ul class="text-start mx-auto" style="max-width: 550px;">
+                    <li>Educação inclusiva e antirracista.</li>
+                    <li>Acesso garantido a grupos vulneráveis.</li>
+                    <li>Ações para combater a evasão escolar.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FORMULÁRIO FUNCIONAL -->
+<section class="call-to-action text-white text-center" id="signup">
+    <div class="container">
+        <h2 class="mb-4">Cadastre-se para receber novidades do PFE</h2>
+
+        <form id="newsletterForm">
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+                    <input id="emailInput" class="form-control form-control-lg" 
+                           type="email" placeholder="Seu e-mail" required />
+                </div>
+
+                <div class="col-auto mt-3 mt-md-0">
+                    <button class="btn btn-primary btn-lg" type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+
+        <p id="successMsg" class="success-message">✔ Cadastro realizado com sucesso!</p>
+        <p id="errorMsg" class="error-message">✘ Por favor, insira um e-mail válido.</p>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="footer text-center py-3">
+    <p>© PFE — Partido Futuro Pela Educação • 2025 • Uso Escolar</p>
+</footer>
+
+<!-- SCRIPT DO FORMULÁRIO -->
+<script>
+    const form = document.getElementById("newsletterForm");
+    const email = document.getElementById("emailInput");
+    const success = document.getElementById("successMsg");
+    const error = document.getElementById("errorMsg");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const emailVal = email.value.trim();
+
+        if (!emailVal || !emailVal.includes("@") || !emailVal.includes(".")) {
+            success.style.display = "none";
+            error.style.display = "block";
+            return;
+        }
+
+        error.style.display = "none";
+        success.style.display = "block";
+
+        email.value = "";
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
